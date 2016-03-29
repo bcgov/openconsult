@@ -40,6 +40,10 @@ Each set of requirements includes fields that are *required*, *recommended*, and
 
 Organizations publishing to the standard are free to publish any additional fields alongside those described in this standard, so long as those fields are clearly not covered by one of the fields described in the standard. Organizations doing so are encouraged to submit those fields as candidates for inclusion.
 
+## Sample Data
+
+Sample Data is provided in the `SampleData` folder demonstrating how real-world data (derived from EngageBC and PlaceSpeak.com) could be formatted to fit the standard. Note that not all fields are required, so not all data being published to the standard will have a structure identical to this sample.
+
 ## Project Status
 Initial draft for discussion being shared, feedback being collected on the basic structure of the dataset, as well as on the field details.
 
