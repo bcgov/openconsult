@@ -4,7 +4,7 @@ The following provides the [required](#required), [recommended](#recommended) an
 
 Field                                | DataType | Description
 -------------------------------------|----------|------------
-ConsultationID                       | TEXT     | A unique ID used internally by the consulting organization to identify this particular consultation. If not such ID exists, one should be generated for publishing purposes.
+ConsultationId                       | TEXT     | A unique ID used internally by the consulting organization to identify this particular consultation. If not such ID exists, one should be generated for publishing purposes.
 Title                                | TEXT     | A short-form description of the consultation, preferably under 140 characters.
 StatusCurrent <sup>[1](#note1)</sup> | TEXT     | The current status of the consultation.
 
