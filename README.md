@@ -2,20 +2,46 @@
 
 **OpenConsult** is a draft open standard for publishing data about public consultations.  The standard was initiated in December 2015 as a joint project of the Province of British Columbia and PlaceSpeak.com, under the umbrella of the BCDevExchange program.
 
-## Features
-### TBD
+## Current Version
+
+The current version is `discussion draft 1`.
 
 ## Usage
-This is a standard that governments, and other organizations that regulary consult with the public, can use to share information about upcoming, ongoing, and completed consultations. This is a standard that citizens' groups, other governments, and businesses can use to create services that recieve data from multiple conulting organizations for re-publication, re-purposing and research.
+This is a standard that governments, and other organizations that regularly consult with the public, can use to share information about upcoming, ongoing, and completed consultations. This is a standard that citizens' groups, other governments, and businesses can use to create services that recieve data from multiple consulting organizations for re-publication, re-purposing and research.
+
+## Data structure
+
+The OpenConsult standard consists of a core dataset of consistently named and formatted fields (aka columns) with one entry (row) per consultation. Those required fields are described in the [requirements document](Core-applications-dataset-requirements.md), as well as recommended and optional fields that can be published alongside them.
+
+In addition to the core consultations dataset, there are three optional supplementary datasets, providing additional information about public events, documents, and status changes that might be associated with a given consultation. Each of these optional datasets also consists of required, recommended and optional fields. These optional datasets are linked back to the core dataset by the use of a unique consultation ID field.
+
+For example, in the core consultation dataset there could be one (and necessarily only one) consultation with the ID "2016999". Then in the optional documents dataset there could be 4 associated .PDF documents described, each with "2016999" as the value in their respective `ConsultationId` fields.
+
+This data structure has been proposed because
+
+* it provides a relatively easy way for organizations to quickly publish simple but useful data about their consultations
+* it provides scope for more ambitious organizations to publish richer and more useful data
+* by avoiding data structures that allow for optionally repeated nesting data (as could be expressed e.g. in JSON or XML) and sticking to spreadsheet-like tables with a fixed number of columns, it can be readily published in common open data portals, e.g. CKAN or Socrata.
 
 ## Requirements
 
-## Project Status
-Underway!
+The standard's requirements are described in these files:
 
-## Goals/Roadmap
-**A list of fields and their descriptions**
-**Examples showing how data looks when using the OpenConsult fields, represented in several file formats (.json, .xml, .csv).
+* [Core-applications-dataset-requirements.md](Core-applications-dataset-requirements.md)
+* [Optional-status-change-dataset-requirements.md](Optional-status-change-dataset-requirements.md)
+* [Optional-public-meeting-dataset-requirements.md](Optional-public-meeting-dataset-requirements.md)
+* [Optional-document-dataset-requirements.md](Optional-document-dataset-requirements.md)
+
+Each set of requirements includes fields that are *required*, *recommended*, and *optional* fields:
+
+* **Required**: These essential fields are necessary to have the basic level of data necessary to make this a useful dataset.
+* **Recommended**: These fields are highly recommended in order to give the data real-world usability. If these data are available, then they should be submitted.
+* **Optional**: These fields provide useful additional information, which may or may not be relevant in the context of a particular consulting organization or a particular consultation. If the data exists, they should be submitted.
+
+Organizations publishing to the standard are free to publish any additional fields alongside those described in this standard, so long as those fields are clearly not covered by one of the fields described in the standard. Organizations doing so are encouraged to submit those fields as candidates for inclusion.
+
+## Project Status
+Initial draft for discussion being shared, feedback being collected on the basic structure of the dataset, as well as on the field details.
 
 ## Getting Help or Reporting an Issue
 If you have opinions about the standard please [submit an issue](https://github.com/bcgov/openconsult/issues) here, or get in touch at <hugh@placespeak.com> | <justin.hewitt@gov.bc.ca>.
