@@ -2,6 +2,8 @@
 
 **OpenConsult** is a draft open standard for publishing data about public consultations.  The standard was initiated in December 2015 as a joint project of the Province of British Columbia and PlaceSpeak.com, under the umbrella of the BCDevExchange program.
 
+Please note that there is a major re-working of the standard currently being floated for comment in (this pull request)[https://github.com/bcgov/openconsult/pull/2].
+
 ## Features
 ### TBD
 
