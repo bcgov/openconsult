@@ -32,8 +32,8 @@ PublicEventEndDate     | TEXT (YYYY-MM-DD) |  The date the public event ended or
 PublicEventDescription | TEXT              | A detailed description of the nature of the public event.
 PublicEventAddress1    | TEXT              | The street address of the public event, if applicable, or the first line of the address for multi-line addresses.
 PublicEventAddress2    | TEXT              | The second line of the address for multi-line addresses.
-PublicEventCity        | TEXT              | The city of the address.
-PublicEventState       | TEXT              | The province or state of the address.
+PublicEventLocality    | TEXT              | The city/town of the address.
+PublicEventRegion      | TEXT              | The province/state of the address.
 PublicEventLink        | TEXT              | A link to the online component of the public event, if applicable.
 PublicEventStartTime   | TEXT (HH:MM)      | The start time of the public event. Use local time zone, or local time with [UTC offset](https://en.wikipedia.org/wiki/ISO_8601#Time_offsets_from_UTC) (hh:mm±hh:mm).
 PublicEventEndTime     | TEXT (HH:MM)      | The end time of the public event. Use local time zone, or local time with [UTC offset](https://en.wikipedia.org/wiki/ISO_8601#Time_offsets_from_UTC) (hh:mm±hh:mm).
