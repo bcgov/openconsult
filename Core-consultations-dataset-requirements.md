@@ -25,7 +25,7 @@ GeographicScopeObject <sup>[2](#note2)</sup> | [GeoJSON](http://geojson.org/geoj
 
 Field                  | DataType          | Description
 -----------------------|-------------------|------------
-StatusCurrentMapped    | TEXT              | The current status of the consultation mapped to one of these standardized values: <ul><li>Planned</li><li>Active</li><li>Completed</li><li>Re-opened</li></ul>
+StatusCurrentStandardized | TEXT              | The current status of the consultation mapped to one of these standardized values: <ul><li>Planned</li><li>Active</li><li>Completed</li><li>Re-opened</li></ul>
 GeographicScopeType    | TEXT              | The nature of the geographic scope in which the consultation is relevant, e.g. "City", "Province", "Region", "Neighbourhood".
 PublicEventTitle       | TEXT              | A short-form description of the nature of the public event. If there is more than one public event or channel of engagement use the optional public events dataset instead.
 PublicEventStartDate   | TEXT (YYYY-MM-DD) | The date the public event was or will be held. If the event will span multiple days, include the a value in the `PublicEventEndDate` field.
