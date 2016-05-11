@@ -16,7 +16,7 @@ OrganizationName                     | TEXT     | The name of the organization o
 Field                                        | DataType | Description
 ---------------------------------------------|----------|------------
 Description                                  | TEXT     | A detailed description of the consultation.
-GeographicScope <sup>[2](#note2)</sup>       | TEXT     | In the area in which the consultation is relevant, e.g. "Vancouver", "British Columbia", "Lower mainland", "Strathcona".
+GeographicScope <sup>[2](#note2)</sup>       | TEXT     | In the area in which the consultation is relevant, e.g. "Vancouver", "British Columbia", "Lower mainland", "Strathcona". For consistency publishers are encouraged to cross reference with the [BC Geographical Names service](http://geobc.gov.bc.ca/base-mapping/atlas/bcnames/dev.htm), or their regional equivalent if one exists.
 GeographicScopeObject <sup>[2](#note2)</sup> | [GeoJSON](http://geojson.org/geojson-spec.html) | A GeoJSON object representing the location of the application. Points, multi-points, polygons and multi-polygons are all acceptable.
 
 <a name="note2">2</a>. It is acceptable to provide either `GeographicScope` or `GeographicScopeObject`. If both are available both should be provided.
