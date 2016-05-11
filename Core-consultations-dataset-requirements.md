@@ -23,18 +23,18 @@ GeographicScopeObject <sup>[2](#note2)</sup> | [GeoJSON](http://geojson.org/geoj
 
 ### Optional
 
-Field                  | DataType          | Description
------------------------|-------------------|------------
+Field                     | DataType          | Description
+--------------------------|-------------------|------------
 StatusCurrentStandardized | TEXT              | The current status of the consultation mapped to one of these standardized values: <ul><li>Planned</li><li>Active</li><li>Completed</li><li>Re-opened</li></ul>
-GeographicScopeType    | TEXT              | The nature of the geographic scope in which the consultation is relevant, e.g. "City", "Province", "Region", "Neighbourhood".
-PublicEventTitle       | TEXT              | A short-form description of the nature of the public event. If there is more than one public event or channel of engagement use the optional public events dataset instead.
-PublicEventStartDate   | TEXT (YYYY-MM-DD) | The date the public event was or will be held. If the event will span multiple days, include the a value in the `PublicEventEndDate` field.
-PublicEventEndDate     | TEXT (YYYY-MM-DD) |  The date the public event ended or is planned to end.
-PublicEventDescription | TEXT              | A detailed description of the nature of the public event.
-PublicEventAddress1    | TEXT              | The street address of the public event, if applicable, or the first line of the address for multi-line addresses.
-PublicEventAddress2    | TEXT              | The second line of the address for multi-line addresses.
-PublicEventLocality    | TEXT              | The city/town of the address.
-PublicEventRegion      | TEXT              | The province/state of the address.
-PublicEventLink        | TEXT              | A link to the online component of the public event, if applicable.
-PublicEventStartTime   | TEXT (HH:MM)      | The start time of the public event. Use local time zone, or local time with [UTC offset](https://en.wikipedia.org/wiki/ISO_8601#Time_offsets_from_UTC) (hh:mm±hh:mm).
-PublicEventEndTime     | TEXT (HH:MM)      | The end time of the public event. Use local time zone, or local time with [UTC offset](https://en.wikipedia.org/wiki/ISO_8601#Time_offsets_from_UTC) (hh:mm±hh:mm).
+GeographicScopeType       | TEXT              | The nature of the geographic scope in which the consultation is relevant, e.g. "City", "Province", "Region", "Neighbourhood".
+PublicEventTitle          | TEXT              | A short-form description of the nature of the public event. If there is more than one public event or channel of engagement use the optional public events dataset instead.
+PublicEventStartDate      | TEXT (YYYY-MM-DD) | The date the public event was or will be held. If the event will span multiple days, include the a value in the `PublicEventEndDate` field.
+PublicEventEndDate        | TEXT (YYYY-MM-DD) |  The date the public event ended or is planned to end.
+PublicEventDescription    | TEXT              | A detailed description of the nature of the public event.
+PublicEventAddress1       | TEXT              | The street address of the public event, if applicable, or the first line of the address for multi-line addresses.
+PublicEventAddress2       | TEXT              | The second line of the address for multi-line addresses.
+PublicEventLocality       | TEXT              | The city/town of the address.
+PublicEventRegion         | TEXT              | The province/state of the address.
+PublicEventLink           | TEXT              | A link to the online component of the public event, if applicable.
+PublicEventStartTime      | TEXT (HH:MM)      | The start time of the public event. Use local time zone, or local time with [UTC offset](https://en.wikipedia.org/wiki/ISO_8601#Time_offsets_from_UTC) (hh:mm±hh:mm).
+PublicEventEndTime        | TEXT (HH:MM)      | The end time of the public event. Use local time zone, or local time with [UTC offset](https://en.wikipedia.org/wiki/ISO_8601#Time_offsets_from_UTC) (hh:mm±hh:mm).
