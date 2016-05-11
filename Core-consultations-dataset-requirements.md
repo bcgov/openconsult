@@ -7,6 +7,8 @@ Field                                | DataType | Description
 ConsultationId                       | TEXT     | A unique ID used internally by the consulting organization to identify this particular consultation. If not such ID exists, one should be generated for publishing purposes.
 Title                                | TEXT     | A short-form description of the consultation, preferably under 140 characters.
 StatusCurrent <sup>[1](#note1)</sup> | TEXT     | The current status of the consultation.
+OrganizationName                     | TEXT     | The name of the organization on who's behalf the consultation is being conducted. For most data publishers this will always be themselves. For agencies that facilitate consultations for multiple organizations it may vary.
+
 
 <a name="note1">1</a>. `StatusCurrent` is not required if the optional Status changes dataset is provided.
 
@@ -16,7 +18,6 @@ Field                                        | DataType | Description
 Description                                  | TEXT     | A detailed description of the consultation.
 GeographicScope <sup>[2](#note2)</sup>       | TEXT     | In the area in which the consultation is relevant, e.g. "Vancouver", "British Columbia", "Lower mainland", "Strathcona".
 GeographicScopeObject <sup>[2](#note2)</sup> | [GeoJSON](http://geojson.org/geojson-spec.html) | A GeoJSON object representing the location of the application. Points, multi-points, polygons and multi-polygons are all acceptable.
-OrganizationName                             | TEXT     | The name of the organization carrying out the consultation. For most organizations this will won't change from consultation to consultation. For agencies that facilitate consultations for multiple organizations it might.
 
 <a name="note2">2</a>. It is acceptable to provide either `GeographicScope` or `GeographicScopeObject`. If both are available both should be provided.
 
