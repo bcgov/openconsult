@@ -27,10 +27,10 @@ This data structure has been proposed because
 
 The standard's requirements are described in these files:
 
-* [Core-applications-dataset-requirements.md](Core-applications-dataset-requirements.md)
-* [Optional-status-change-dataset-requirements.md](Optional-status-change-dataset-requirements.md)
-* [Optional-public-meeting-dataset-requirements.md](Optional-public-meeting-dataset-requirements.md)
-* [Optional-document-dataset-requirements.md](Optional-document-dataset-requirements.md)
+* [Core-consultations-dataset-requirements.md](Core-consultations-dataset-requirements.md)
+* [Optional-status-changes-dataset.md](Optional-status-changes-dataset.md)
+* [Optional-public-events-dataset-requirements.md](Optional-public-events-dataset-requirements.md)
+* [Optional-documents-dataset-requirements.md](Optional-documents-dataset-requirements.md)
 
 Each set of requirements includes fields that are *required*, *recommended*, and *optional* fields:
 
