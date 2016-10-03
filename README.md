@@ -28,7 +28,7 @@ This data structure has been proposed because
 The standard's requirements are described in these files:
 
 * [Core-consultations-dataset-requirements.md](Core-consultations-dataset-requirements.md)
-* [Optional-status-changes-dataset.md](Optional-status-changes-dataset.md)
+* [Optional-status-changes-dataset-requirements.md](Optional-status-changes-dataset-requirements.md)
 * [Optional-public-events-dataset-requirements.md](Optional-public-events-dataset-requirements.md)
 * [Optional-documents-dataset-requirements.md](Optional-documents-dataset-requirements.md)
 
