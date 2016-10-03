@@ -44,6 +44,14 @@ Organizations publishing to the standard are free to publish any additional fiel
 
 Sample Data is provided in the `SampleData` folder demonstrating how real-world data (derived from EngageBC and PlaceSpeak.com) could be formatted to fit the standard. Note that not all fields are required, so not all data being published to the standard will have a structure identical to this sample.
 
+## Examples
+
+[PlaceSpeak.com](https://www.placespeak.com) provides a feed machine-readable feed of all of their public consultations, formatted in JSON and structured according to the draft **openconsult** standard.
+
+The feed is located at [https://www.placespeak.com/api/consultations/](https://www.placespeak.com/api/consultations/).
+
+It currently implements the "core" dataset requirements.
+
 ## Project Status
 Initial draft for discussion being shared, feedback being collected on the basic structure of the dataset, as well as on the field details.
 
