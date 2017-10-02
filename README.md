@@ -11,7 +11,7 @@ This is a standard that governments, and other organizations that regularly cons
 
 ## Data structure
 
-The OpenConsult standard consists of a core dataset of consistently named and formatted fields (aka columns) with one entry (row) per consultation. Those required fields are described in the [requirements document](Core-applications-dataset-requirements.md), as well as recommended and optional fields that can be published alongside them.
+The OpenConsult standard consists of a core dataset of consistently named and formatted fields (aka columns) with one entry (row) per consultation. Those required fields are described in the [requirements document](Core-consultations-dataset-requirements.md), as well as recommended and optional fields that can be published alongside them.
 
 In addition to the core consultations dataset, there are three optional supplementary datasets, providing additional information about public events, documents, and status changes that might be associated with a given consultation. Each of these optional datasets also consists of required, recommended and optional fields. These optional datasets are linked back to the core dataset by the use of a unique consultation ID field.
 
