@@ -1,4 +1,4 @@
-EventAn optional public meetings dataset is included in case there is more than one channel or opportunity for public engagement with regards to a particular consultation project. This can include past or scheduled events.
+Event An optional public meetings dataset is included in case there is more than one channel or opportunity for public engagement with regards to a particular consultation project. This can include past or scheduled events.
 
 ### Required
 
