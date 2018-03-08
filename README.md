@@ -56,7 +56,7 @@ It currently implements the "core" dataset requirements.
 Initial draft for discussion being shared, feedback being collected on the basic structure of the dataset, as well as on the field details.
 
 ## Getting Help or Reporting an Issue
-If you have opinions about the standard please [submit an issue](https://github.com/bcgov/openconsult/issues) here, or get in touch at <hugh@placespeak.com> | <justin.hewitt@gov.bc.ca>.
+If you have opinions about the standard please [submit an issue](https://github.com/bcgov/openconsult/issues) here, or get in touch at <hugh@hughstimson.org> | <justin.hewitt@gov.bc.ca>.
 
 ## License
 
